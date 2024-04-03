@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rakkas-regular {
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.handjet {
+    font-family: "handjet", sans-serif;
+    font-optical-sizing: auto;
+}
