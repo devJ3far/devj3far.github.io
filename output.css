@@ -1986,24 +1986,16 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
 .pb-6 {
   padding-bottom: 1.5rem;
 }
 
 .pt-8 {
   padding-top: 2rem;
-}
-
-.pb-3 {
-  padding-bottom: 0.75rem;
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem;
-}
-
-.pb-1 {
-  padding-bottom: 0.25rem;
 }
 
 .text-left {
@@ -2566,6 +2558,16 @@ video {
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+}
+
+::-moz-selection {
+  background: #000000;
+  color: #ed6d36;
+}
+
+::selection {
+  background: #000000;
+  color: #ed6d36;
 }
 
 .rakkas-regular {

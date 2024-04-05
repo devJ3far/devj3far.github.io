@@ -9,6 +9,11 @@
     scroll-behavior: smooth;
 }
 
+::selection {
+    background: #000000;
+    color: #ed6d36;
+}
+
 .rakkas-regular {
     font-family: "Rakkas", serif;
     font-weight: 400;
