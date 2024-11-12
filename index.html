@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
     <link href="output.css" rel="stylesheet">
+    <script src="/main.js"></script>
     <title>AuReckless</title>
 </head>
 
@@ -18,46 +19,35 @@
     <header class="w-full h-16 top-0 fixed z-50 flex justify-around items-center text-slate-200
           font-semibold bg-gradient-to-r from-[#880C25] to-[#B21031]">
 
-        <div class=" text-4xl font-black">
-            <a href="#about"><img src="/images/logoB-removebg-preview.png" width="70" alt=""></a>
+        <div class="w-[70px]">
+            <a href="#about"><img src="/images/logoB-removebg-preview.png" alt="JD"></a>
         </div>
 
         <div class="text-2xl">
-            <a href="#skills" class="px-2">المهارات</a>
-            <a href="#projects" class="px-2">المشاريع</a>
-            <a href="#contacts" class="px-2">التواصل</a>
+            <a href="#skills"   class="px-2 hover:text-cyan-400 transition duration-300 ease-in-out transform hover:scale-200">المهارات</a>
+            <a href="#projects" class="px-2 hover:text-cyan-400 transition duration-300 ease-in-out transform hover:scale-200">المشاريع</a>
+            <a href="#contacts" class="px-2 hover:text-cyan-400 transition duration-300 ease-in-out transform hover:scale-200">التواصل</a>
         </div>
 
     </header>
 
     <!-- about section -->
 
-    <section id="about" class="w-full min-h-dvh px-2.5 py-36 flex flex-col justify-center items-center">
+    <section id="about" class="w-full min-h-dvh px-2.5 py-36 flex flex-col justify-center items-center bg-gradient-to-l from-cyan-400 to-cyan-500">
 
-        <div class="text-2xl font-semibold">
+        <div class="text-3xl font-semibold ">
 
             <P>
                 حياكم الله أنا
             </p>
 
-            <h2 class="pb-4 text-7xl text-[#B21031] font-bold">الشيخ جعفر</h2>
+            <h1 class="pb-4 text-7xl text-[#B21031] font-bold">جعفر</h2>
 
             <p>
-                متعطش للأنسايت والعلم والخبرة, قاتل
-                <span class="text-3xl text-[#B21031] font-black">70</span> زعيم
-                و
-                <span class="text-3xl text-[#B21031] font-black">300</span>
-                من الغزاة بالسيف والدلة, ضارب الميتريكس بگندرة وتفلة.
+                مهتم بالتقنية والهاردوير والبرمجة وخصيصا مجال تطوير الويب,
+                <br>
+                شغوف بالتعلم واستطلاع كل ما هو جديد في بحار التقنية.
             </p>
-
-            <div class="py-6 text-4xl flex justify-evenly">
-
-                <a href="http://"><i class="fa-brands fa-instagram"></i></a>
-                <a href="http://"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="http://"><i class="fa-brands fa-discord"></i></a>
-                <a href="http://"><i class="fa-brands fa-github"></i></a>
-
-            </div>
 
         </div>
 
@@ -76,22 +66,23 @@
 
         <div class="flex flex-col flex-wrap justify-center items-center">
 
-            <div class="w-[90%] h-auto lg:w-[40%] p-7 m-5 bg-slate-300 drop-shadow-2xl">
+            <div class="w-[90%] h-auto lg:w-[40%] p-7 m-5 bg-slate-300 drop-shadow-2xl border-4 border-black">
 
                 <h3 class="pb-1 text-5xl text-[#00728F] font-bold">
                     تطوير الويب
                 </h3>
 
                 <ul dir="ltr" class="px-6 list-disc text-3xl font-medium">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Tailwind CSS</li>
-                    <li>JS</li>
+                    <li>HTML <i class="fa-brands fa-html5 px-2"></i></li>
+                    <li>CSS <i class="fa-brands fa-css3-alt px-2"></i></li>
+                    <li>Tailwind CSS <img class="inline h-8 px-2" src="/images/tailwind.png" alt=""></li>
+                    <li>JS <i class="fa-brands fa-js px-2"></i></li>
+                    <li>React.js <i class="fa-brands fa-react px-2"></i></li>
                 </ul>
 
             </div>
 
-            <div class="w-[90%] h-auto lg:w-[40%] p-7 m-5 bg-slate-300 drop-shadow-2xl">
+            <div class="w-[90%] h-auto lg:w-[40%] p-7 m-5 bg-slate-300 drop-shadow-2xl border-4 border-black">
 
                 <h3 class="pb-1 text-5xl text-[#00728F] font-bold">
                     لغات البرمجة
@@ -102,13 +93,13 @@
                     <li>C++</li>
                     <li>Lua</li>
                     <li>Java</li>
-                    <li>JS</li>
                     <li>Python</li>
+                    
                 </ul>
 
             </div>
 
-            <div class="w-[90%] h-auto lg:w-[40%] p-7 m-5 bg-slate-300 drop-shadow-2xl">
+            <div class="w-[90%] h-auto lg:w-[40%] p-7 m-5 bg-slate-300 drop-shadow-2xl border-4 border-black">
 
                 <h3 class="pb-1 text-5xl text-[#00728F] font-bold">
                     الخبرات
@@ -123,7 +114,7 @@
 
             </div>
 
-            <div class="w-[90%] h-auto lg:w-[40%] p-7 m-5 bg-slate-300 drop-shadow-2xl">
+            <div class="w-[90%] h-auto lg:w-[40%] p-7 m-5 bg-slate-300 drop-shadow-2xl border-4 border-black">
 
                 <h3 class="pb-1 text-5xl text-[#00728F] font-bold">
                     اللغات
@@ -141,8 +132,10 @@
 
     <!-- projects section -->
 
-    <section class="w-full min-h-dvh px-2 py-20 flex flex-col justify-center items-center bg-gradient-to-r from-[#fda50f] to-[#fd6a00]">
-     
+    <section id="projects" class="w-full min-h-dvh px-2 py-20 flex flex-col justify-center items-center bg-gradient-to-r from-[#fda50f] to-[#fd6a00]">
+        
+        <h2 class="pt-8 pb-6 text-7xl text-slate-100 font-extrabold flex justify-center">المشاريع</h2>
+
         <div class="w-[90%] h-auto lg:w-[25%] p-7 m-5 flex flex-col justify-center items-center bg-slate-300 drop-shadow-2xl">
 
             <div>
@@ -164,8 +157,18 @@
 
 </body>
 
-<footer class="w-full h-[100px] px-2 py-20 bg-black">
+<footer id="contacts" class=" px-2 py-20 bg-black">
+    <div>
+        <h2 class="pt-8 pb-6 text-7xl text-slate-100 font-extrabold flex justify-center">التواصل</h2>
+        <div class="py-6 text-slate-200 text-4xl flex justify-center">
 
+            <a class="px-4" href="http://"><i class="fa-brands fa-instagram"></i></a>
+            <a class="px-4" href="http://"><i class="fa-brands fa-discord"></i></a>
+            <a class="px-4" href="https://github.com/devJ3far"><i class="fa-brands fa-github"></i></a>
+            <a class="px-4" href="mailto:dev.jafar.adubais@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+
+        </div>
+    </div>
 </footer>
 
 </html>
