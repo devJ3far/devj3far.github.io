@@ -11,29 +11,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
     <link href="output.css" rel="stylesheet">
     <script src="/main.js"></script>
-    <title>AuReckless</title>
+    <title>JD portfolio</title>
 </head>
 
 <body class="" style="font-family: handjet;">
 
-    <header class="w-full h-16 top-0 fixed z-50 flex justify-around items-center text-slate-200
-          font-semibold bg-gradient-to-r from-[#880C25] to-[#B21031]">
+    <header class="w-full h-16 top-0 fixed z-50 space-x-8 flex justify-between md:justify-around items-center text-slate-200
+          font-semibold bg-black">
 
         <div class="w-[70px]">
             <a href="#about"><img src="/images/logoB-removebg-preview.png" alt="JD"></a>
         </div>
 
-        <div class="text-2xl">
+        <nav class="hidden md:block text-2xl">
             <a href="#skills"   class="px-2 hover:text-cyan-400 transition duration-300 ease-in-out transform hover:scale-200">المهارات</a>
             <a href="#projects" class="px-2 hover:text-cyan-400 transition duration-300 ease-in-out transform hover:scale-200">المشاريع</a>
             <a href="#contacts" class="px-2 hover:text-cyan-400 transition duration-300 ease-in-out transform hover:scale-200">التواصل</a>
-        </div>
-
+            
+        </nav>
+         <button class="md:hidden pt-1 text-3xl hover:text-cyan-400 transition duration-300 ease-in-out transform hover:scale-200"><i class="fa-solid fa-bars"></i></button>
     </header>
 
     <!-- about section -->
 
-    <section id="about" class="w-full min-h-dvh px-2.5 py-36 flex flex-col justify-center items-center bg-gradient-to-l from-[#88a8c8] to-[#668caf]">
+    <section id="about" class="w-full min-h-dvh px-2.5 py-36 flex flex-col justify-center items-center bg-gradient-to-l from-[#7fcdff] to-[#1da2d8]">
 
         <div class="text-3xl font-semibold ">
 
@@ -147,10 +148,10 @@
 
         <div class="py-6 text-slate-200 text-4xl flex justify-center">
 
-            <a class="px-4 hover:text-green-500 transition duration-300 ease-in-out transform hover:scale-200" href="http://"><i class="fa-brands fa-instagram"></i></a>
-            <a class="px-4 hover:text-green-500 transition duration-300 ease-in-out transform hover:scale-200" href="http://"><i class="fa-brands fa-discord"></i></a>
-            <a class="px-4 hover:text-green-500 transition duration-300 ease-in-out transform hover:scale-200" href="https://github.com/devJ3far"><i class="fa-brands fa-github"></i></a>
-            <a class="px-4 hover:text-green-500 transition duration-300 ease-in-out transform hover:scale-200" href="mailto:dev.jafar.adubais@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a class="px-4 hover:text-green-500 transition duration-300 ease-in-out transform hover:scale-200" target="_blank" href="http://"><i class="fa-brands fa-instagram"></i></a>
+            <a class="px-4 hover:text-green-500 transition duration-300 ease-in-out transform hover:scale-200" target="_blank" href="http://"><i class="fa-brands fa-discord"></i></a>
+            <a class="px-4 hover:text-green-500 transition duration-300 ease-in-out transform hover:scale-200" target="_blank" href="https://github.com/devJ3far"><i class="fa-brands fa-github"></i></a>
+            <a class="px-4 hover:text-green-500 transition duration-300 ease-in-out transform hover:scale-200" target="_blank" href="mailto:dev.jafar.adubais@gmail.com"><i class="fa-solid fa-envelope"></i></a>
 
         </div>
     </div>
